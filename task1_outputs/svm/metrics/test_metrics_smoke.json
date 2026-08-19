@@ -1,0 +1,24 @@
+{
+  "model": "Support Vector Machine",
+  "best_variant": "linear_C_1",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1",
+  "validation": {
+    "accuracy": 0.55,
+    "balanced_accuracy": 0.55,
+    "macro_precision": 0.5504473304473304,
+    "macro_recall": 0.55,
+    "macro_f1": 0.540460427085814,
+    "variant": "linear_C_1",
+    "runtime_seconds": 0.016728213000021697
+  },
+  "test": {
+    "accuracy": 0.45,
+    "balanced_accuracy": 0.45,
+    "macro_precision": 0.480595238095238,
+    "macro_recall": 0.45,
+    "macro_f1": 0.44772893772893774
+  },
+  "runtime_seconds": 0.07135864899998978,
+  "parameter_count": 3370
+}

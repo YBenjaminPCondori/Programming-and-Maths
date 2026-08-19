@@ -1,0 +1,16 @@
+split,class_name,files
+test,AudioLDM2,8
+test,MusicGen,8
+test,MusicLDM,8
+test,Mustango,8
+test,Stable Audio Open,8
+train,AudioLDM2,8
+train,MusicGen,8
+train,MusicLDM,8
+train,Mustango,8
+train,Stable Audio Open,8
+validation,AudioLDM2,8
+validation,MusicGen,8
+validation,MusicLDM,8
+validation,Mustango,8
+validation,Stable Audio Open,8

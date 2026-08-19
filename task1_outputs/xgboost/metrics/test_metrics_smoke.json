@@ -1,0 +1,24 @@
+{
+  "model": "XGBoost",
+  "best_variant": "depth_6_lr_0.05",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1",
+  "validation": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "macro_precision": 0.4907936507936507,
+    "macro_recall": 0.5,
+    "macro_f1": 0.49062558356676006,
+    "variant": "depth_6_lr_0.05",
+    "runtime_seconds": 0.2511009690000492
+  },
+  "test": {
+    "accuracy": 0.325,
+    "balanced_accuracy": 0.325,
+    "macro_precision": 0.3166666666666667,
+    "macro_recall": 0.325,
+    "macro_f1": 0.3126984126984127
+  },
+  "runtime_seconds": 0.8067604799999799,
+  "parameter_count": 200
+}

@@ -1,0 +1,24 @@
+{
+  "model": "NumPy CNN",
+  "best_variant": "regularized_8_16",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1",
+  "validation": {
+    "accuracy": 0.3,
+    "balanced_accuracy": 0.3,
+    "macro_precision": 0.23214285714285715,
+    "macro_recall": 0.3,
+    "macro_f1": 0.24481684981684984,
+    "variant": "regularized_8_16",
+    "epochs_trained": 2
+  },
+  "test": {
+    "accuracy": 0.325,
+    "balanced_accuracy": 0.325,
+    "macro_precision": 0.3521645021645022,
+    "macro_recall": 0.325,
+    "macro_f1": 0.29879007864488805
+  },
+  "runtime_seconds": 1.6956068409999716,
+  "parameter_count": 78437
+}

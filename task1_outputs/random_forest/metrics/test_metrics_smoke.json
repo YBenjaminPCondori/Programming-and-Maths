@@ -1,0 +1,24 @@
+{
+  "model": "Random Forest",
+  "best_variant": "unrestricted",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1",
+  "validation": {
+    "accuracy": 0.45,
+    "balanced_accuracy": 0.45,
+    "macro_precision": 0.47142857142857136,
+    "macro_recall": 0.45,
+    "macro_f1": 0.44541889483065955,
+    "variant": "unrestricted",
+    "runtime_seconds": 0.2668721860000005
+  },
+  "test": {
+    "accuracy": 0.375,
+    "balanced_accuracy": 0.375,
+    "macro_precision": 0.5343145743145744,
+    "macro_recall": 0.375,
+    "macro_f1": 0.3715179900938415
+  },
+  "runtime_seconds": 0.8626439469999809,
+  "parameter_count": 1698
+}

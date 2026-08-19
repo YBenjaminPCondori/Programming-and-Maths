@@ -1,0 +1,24 @@
+{
+  "model": "Logistic Regression",
+  "best_variant": "multinomial_C_0.1",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1",
+  "validation": {
+    "accuracy": 0.625,
+    "balanced_accuracy": 0.625,
+    "macro_precision": 0.6456060606060605,
+    "macro_recall": 0.625,
+    "macro_f1": 0.6208421695263799,
+    "variant": "multinomial_C_0.1",
+    "runtime_seconds": 0.05057763600001408
+  },
+  "test": {
+    "accuracy": 0.375,
+    "balanced_accuracy": 0.375,
+    "macro_precision": 0.38692307692307687,
+    "macro_recall": 0.375,
+    "macro_f1": 0.3625541125541126
+  },
+  "runtime_seconds": 0.12238982799999576,
+  "parameter_count": 405
+}
