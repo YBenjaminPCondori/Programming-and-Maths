@@ -1,0 +1,6 @@
+accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,trial,trial_factor,variant,epochs_trained,parameter_count,hidden_sizes_json,activation,dropout,l1,l2,optimizer,learning_rate,decay,batch_size,configured_epochs
+0.7224489795918367,0.7224489795918367,0.7183588213045942,0.7224489795918367,0.7195111430874941,04_architecture_trial,Hidden-layer architecture,two_layer_256_128,22,54277,"[256, 128]",relu,0.2,0.0,0.0,momentum,0.01,0.01,64,50
+0.7173469387755103,0.7173469387755101,0.7177708673261219,0.7173469387755101,0.7174816347070474,04_architecture_trial,Hidden-layer architecture,two_layer_128_64,35,18949,"[128, 64]",relu,0.2,0.0,0.0,momentum,0.01,0.01,64,50
+0.7091836734693877,0.7091836734693877,0.7068861738988158,0.7091836734693877,0.7071889147245722,04_architecture_trial,Hidden-layer architecture,one_layer_64,42,5509,[64],relu,0.2,0.0,0.0,momentum,0.01,0.01,64,50
+0.7040816326530612,0.7040816326530612,0.6995389195110848,0.7040816326530612,0.7003230486795762,04_architecture_trial,Hidden-layer architecture,one_layer_128,27,11013,[128],relu,0.2,0.0,0.0,momentum,0.01,0.01,64,50
+0.7,0.7,0.6968643745699576,0.7,0.6978406230980453,04_architecture_trial,Hidden-layer architecture,three_layer_256_128_64,27,62213,"[256, 128, 64]",relu,0.2,0.0,0.0,momentum,0.01,0.01,64,60

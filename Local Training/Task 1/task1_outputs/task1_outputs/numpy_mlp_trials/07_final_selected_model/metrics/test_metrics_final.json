@@ -1,0 +1,39 @@
+{
+  "model": "NumPy MLP",
+  "run_mode": "final",
+  "selection_source": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/selected/selected_hyperparameters_final.json",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selected_config": {
+    "name": "dropout_0p2_l2_1e_minus_4",
+    "hidden_sizes": [
+      128,
+      64
+    ],
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0001,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.01,
+    "batch_size": 64,
+    "epochs": 50
+  },
+  "validation": {
+    "accuracy": 0.7275510204081632,
+    "balanced_accuracy": 0.7275510204081633,
+    "macro_precision": 0.7271967915666845,
+    "macro_recall": 0.7275510204081633,
+    "macro_f1": 0.7270795618119771
+  },
+  "test": {
+    "accuracy": 0.7543147208121828,
+    "balanced_accuracy": 0.7543147208121829,
+    "macro_precision": 0.7568731654298266,
+    "macro_recall": 0.7543147208121829,
+    "macro_f1": 0.7550479087229316
+  },
+  "test_evaluation": "performed_once_after_validation_based_selection",
+  "runtime_seconds": 3.6348639449998927,
+  "parameter_count": 18949
+}

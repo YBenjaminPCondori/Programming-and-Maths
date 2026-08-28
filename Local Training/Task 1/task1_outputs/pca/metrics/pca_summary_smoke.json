@@ -1,9 +1,0 @@
-{
-  "model": "PCA feature analysis",
-  "run_mode": "smoke",
-  "input_features": 80,
-  "retained_components": 24,
-  "explained_variance": 0.9555414319038391,
-  "runtime_seconds": 0.04211420299998281,
-  "note": "PCA is feature analysis, not a classifier."
-}

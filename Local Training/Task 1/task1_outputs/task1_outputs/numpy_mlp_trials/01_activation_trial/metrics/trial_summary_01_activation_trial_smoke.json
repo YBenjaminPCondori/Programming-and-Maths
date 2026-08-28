@@ -1,0 +1,69 @@
+{
+  "model": "NumPy MLP",
+  "trial": "01_activation_trial",
+  "trial_factor": "Hidden activation function",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "relu_activation",
+  "best_validation": {
+    "accuracy": 0.325,
+    "balanced_accuracy": 0.325,
+    "macro_precision": 0.30238095238095236,
+    "macro_recall": 0.325,
+    "macro_f1": 0.2877922077922078,
+    "trial": "01_activation_trial",
+    "trial_factor": "Hidden activation function",
+    "variant": "relu_activation",
+    "epochs_trained": 4,
+    "parameter_count": 18949,
+    "hidden_sizes_json": "[128, 64]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.01,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "relu_activation",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "sigmoid_activation",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "sigmoid",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    }
+  ],
+  "runtime_seconds": 0.6286446389999583,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/01_activation_trial/tables/validation_01_activation_trial_smoke.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/01_activation_trial/tables/training_history_01_activation_trial_smoke.csv"
+}

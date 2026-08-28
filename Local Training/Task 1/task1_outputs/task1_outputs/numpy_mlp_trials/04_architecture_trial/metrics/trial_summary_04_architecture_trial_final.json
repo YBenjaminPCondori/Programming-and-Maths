@@ -1,0 +1,116 @@
+{
+  "model": "NumPy MLP",
+  "trial": "04_architecture_trial",
+  "trial_factor": "Hidden-layer architecture",
+  "run_mode": "final",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "two_layer_256_128",
+  "best_validation": {
+    "accuracy": 0.7224489795918367,
+    "balanced_accuracy": 0.7224489795918367,
+    "macro_precision": 0.7183588213045942,
+    "macro_recall": 0.7224489795918367,
+    "macro_f1": 0.7195111430874941,
+    "trial": "04_architecture_trial",
+    "trial_factor": "Hidden-layer architecture",
+    "variant": "two_layer_256_128",
+    "epochs_trained": 22,
+    "parameter_count": 54277,
+    "hidden_sizes_json": "[256, 128]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.01,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "one_layer_64",
+      "hidden_sizes": [
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "one_layer_128",
+      "hidden_sizes": [
+        128
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "two_layer_128_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "two_layer_256_128",
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "three_layer_256_128_64",
+      "hidden_sizes": [
+        256,
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 60
+    }
+  ],
+  "runtime_seconds": 22.416668234999975,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/04_architecture_trial/tables/validation_04_architecture_trial_final.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/04_architecture_trial/tables/training_history_04_architecture_trial_final.csv"
+}

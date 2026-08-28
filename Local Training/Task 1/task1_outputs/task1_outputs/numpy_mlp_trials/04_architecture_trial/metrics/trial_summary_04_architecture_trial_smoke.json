@@ -1,0 +1,67 @@
+{
+  "model": "NumPy MLP",
+  "trial": "04_architecture_trial",
+  "trial_factor": "Hidden-layer architecture",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "one_layer_128",
+  "best_validation": {
+    "accuracy": 0.225,
+    "balanced_accuracy": 0.225,
+    "macro_precision": 0.1511111111111111,
+    "macro_recall": 0.225,
+    "macro_f1": 0.17478991596638654,
+    "trial": "04_architecture_trial",
+    "trial_factor": "Hidden-layer architecture",
+    "variant": "one_layer_128",
+    "epochs_trained": 4,
+    "parameter_count": 11013,
+    "hidden_sizes_json": "[128]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.01,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "one_layer_64",
+      "hidden_sizes": [
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "one_layer_128",
+      "hidden_sizes": [
+        128
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    }
+  ],
+  "runtime_seconds": 0.5766640559999132,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/04_architecture_trial/tables/validation_04_architecture_trial_smoke.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/04_architecture_trial/tables/training_history_04_architecture_trial_smoke.csv"
+}

@@ -1,0 +1,3 @@
+accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,trial,trial_factor,variant,epochs_trained,parameter_count,hidden_sizes_json,activation,dropout,l1,l2,optimizer,learning_rate,decay,batch_size,configured_epochs
+0.325,0.325,0.30238095238095236,0.325,0.2877922077922078,01_activation_trial,Hidden activation function,relu_activation,4,18949,"[128, 64]",relu,0.2,0.0,0.0,momentum,0.01,0.01,64,50
+0.2,0.2,0.04,0.2,0.06666666666666667,01_activation_trial,Hidden activation function,sigmoid_activation,4,18949,"[128, 64]",sigmoid,0.2,0.0,0.0,momentum,0.01,0.01,64,50

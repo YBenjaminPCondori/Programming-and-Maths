@@ -1,0 +1,117 @@
+{
+  "model": "NumPy MLP",
+  "trial": "03_dropout_regularisation_trial",
+  "trial_factor": "Dropout and weight regularisation",
+  "run_mode": "final",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "dropout_0p2_l2_1e_minus_4",
+  "best_validation": {
+    "accuracy": 0.7275510204081632,
+    "balanced_accuracy": 0.7275510204081633,
+    "macro_precision": 0.7271967915666845,
+    "macro_recall": 0.7275510204081633,
+    "macro_f1": 0.7270795618119771,
+    "trial": "03_dropout_regularisation_trial",
+    "trial_factor": "Dropout and weight regularisation",
+    "variant": "dropout_0p2_l2_1e_minus_4",
+    "epochs_trained": 37,
+    "parameter_count": 18949,
+    "hidden_sizes_json": "[128, 64]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0001,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.01,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "no_regularisation",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.0,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "dropout_0p2",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "dropout_0p3",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.3,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "l2_1e_minus_4",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.0,
+      "l1": 0.0,
+      "l2": 0.0001,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "dropout_0p2_l2_1e_minus_4",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0001,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    }
+  ],
+  "runtime_seconds": 12.890943305000064,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/03_dropout_regularisation_trial/tables/validation_03_dropout_regularisation_trial_final.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/03_dropout_regularisation_trial/tables/training_history_03_dropout_regularisation_trial_final.csv"
+}

@@ -1,0 +1,69 @@
+{
+  "model": "NumPy MLP",
+  "trial": "05_learningrate_batchsize_trial",
+  "trial_factor": "Learning rate, decay, and batch size",
+  "run_mode": "smoke",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "lr_0p006_batch_64",
+  "best_validation": {
+    "accuracy": 0.275,
+    "balanced_accuracy": 0.275,
+    "macro_precision": 0.26928104575163403,
+    "macro_recall": 0.275,
+    "macro_f1": 0.2589579831932773,
+    "trial": "05_learningrate_batchsize_trial",
+    "trial_factor": "Learning rate, decay, and batch size",
+    "variant": "lr_0p006_batch_64",
+    "epochs_trained": 4,
+    "parameter_count": 18949,
+    "hidden_sizes_json": "[128, 64]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0,
+    "optimizer": "momentum",
+    "learning_rate": 0.006,
+    "decay": 0.01,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "lr_0p003_batch_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.003,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p006_batch_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.006,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    }
+  ],
+  "runtime_seconds": 0.6105505520000065,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/05_learningrate_batchsize_trial/tables/validation_05_learningrate_batchsize_trial_smoke.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/05_learningrate_batchsize_trial/tables/training_history_05_learningrate_batchsize_trial_smoke.csv"
+}

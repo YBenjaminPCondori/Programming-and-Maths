@@ -1,0 +1,133 @@
+{
+  "model": "NumPy MLP",
+  "trial": "05_learningrate_batchsize_trial",
+  "trial_factor": "Learning rate, decay, and batch size",
+  "run_mode": "final",
+  "selection_metric": "validation_macro_f1_then_balanced_accuracy_then_accuracy",
+  "selection_scope": "validation_only",
+  "test_evaluation": "not_performed_in_this_notebook",
+  "best_variant": "lr_0p01_decay_0p02",
+  "best_validation": {
+    "accuracy": 0.726530612244898,
+    "balanced_accuracy": 0.726530612244898,
+    "macro_precision": 0.7269917038951028,
+    "macro_recall": 0.726530612244898,
+    "macro_f1": 0.7264266233588599,
+    "trial": "05_learningrate_batchsize_trial",
+    "trial_factor": "Learning rate, decay, and batch size",
+    "variant": "lr_0p01_decay_0p02",
+    "epochs_trained": 37,
+    "parameter_count": 18949,
+    "hidden_sizes_json": "[128, 64]",
+    "activation": "relu",
+    "dropout": 0.2,
+    "l1": 0.0,
+    "l2": 0.0,
+    "optimizer": "momentum",
+    "learning_rate": 0.01,
+    "decay": 0.02,
+    "batch_size": 64,
+    "configured_epochs": 50
+  },
+  "configs": [
+    {
+      "name": "lr_0p003_batch_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.003,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p006_batch_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.006,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p01_batch_64",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p02_batch_32",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.02,
+      "decay": 0.01,
+      "batch_size": 32,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p01_batch_128",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.01,
+      "batch_size": 128,
+      "epochs": 50
+    },
+    {
+      "name": "lr_0p01_decay_0p02",
+      "hidden_sizes": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "l1": 0.0,
+      "l2": 0.0,
+      "optimizer": "momentum",
+      "learning_rate": 0.01,
+      "decay": 0.02,
+      "batch_size": 64,
+      "epochs": 50
+    }
+  ],
+  "runtime_seconds": 27.265069049000004,
+  "validation_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/05_learningrate_batchsize_trial/tables/validation_05_learningrate_batchsize_trial_final.csv",
+  "best_history_table": "/content/drive/MyDrive/Colab Notebooks/Education/ProgMathsAI/task1_outputs/numpy_mlp_trials/05_learningrate_batchsize_trial/tables/training_history_05_learningrate_batchsize_trial_final.csv"
+}
